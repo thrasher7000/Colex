@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>MPC</title>
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="shortcut icon" href="img/icono.jpg">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default navbar-inverse" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">MPC</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="dropdown-toggle"><a href="#">Vehículos</a></li>
+						<li><a href="#">Quiénes Somos</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Sucursales<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Bogotá D.C</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Medellín</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Cali</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Barranquilla</a></li>
+								<li class="divider">Cartagena</li>
+								<li><a href="#">Pereira</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><p class="navbar-text">Ya tienes una cuenta?</p></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Iniciar sesión</b> <span class="caret"></span></a>
+							<ul id="login-dp" class="dropdown-menu">
+								<li>
+									<div class="row">
+										<div class="col-md-12">
+											Inicia sesion con:
+											<div class="social-buttons">
+												<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+												<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+											</div>
+											o
+											<form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+												<div class="form-group">
+													<label class="sr-only" for="exampleInputEmail2">correo</label>
+													<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Correo Electronico" required>
+												</div>
+												<div class="form-group">
+													<label class="sr-only" for="exampleInputPassword2">contraseña</label>
+													<input type="password" class="form-control" id="exampleInputPassword2" placeholder="Contraseña" required>
+													<div class="help-block text-right"><a href="">Olvido su contraseña?</a></div>
+												</div>
+												<div class="form-group">
+													<button type="submit" class="btn btn-primary btn-block">Iniciar sesión</button>
+												</div>
+												<div class="checkbox">
+													<label>
+														<input type="checkbox"> Guardar 
+													</label>
+												</div>
+											</form>
+										</div>
+										<div class="bottom text-center">
+											Eres nuevo ? <a href="#"><b>Disfruta de nuestros servicios</b></a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!--jumbotron-->
+	<section class="main container"></section>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="img/IMG_20160330_123932629_converted.jpg" alt="imagen">
+			</div>
+
+			<div class="item">
+				<img src="img/IMG_20160330_124025849_converted.jpg" alt="Imagen">
+			</div>
+
+			<div class="item">
+				<img src="img/IMG_20160308_151336251_converted.jpg" alt="Imagen">
+			</div>
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Anterior</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Sigiuente</span>
+			</a>
+		</div>
+		</div>
+
+		<div class="row">
+  <div id ="center" class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/icono.jpg" alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a ipsam libero esse nam, aliquid eveniet, deserunt ducimus cupiditate ullam assumenda veritatis laborum deleniti ex eaque magni ut dolorum sint.</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="wrapper">
+	<div id="left" class="row caja">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/icono.jpg" alt="...">
+      <div class="caption">
+        <h3>imagen guache</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Buton</a> <a href="#" class="btn btn-default" role="button">Buton</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Rigth" class="row ">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/icono.jpg" alt="...">
+      <div class="caption">
+        <h3>imagen guache</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Boton</a> <a href="#" class="btn btn-default" role="button">Buton</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+		<footer>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quos rem sunt earum commodi, nisi, neque eveniet aut! Ullam veniam iure magni veritatis itaque explicabo praesentium, saepe necessitatibus aliquam voluptates officia beatae eos, mollitia cupiditate laboriosam vel illo expedita. Quidem.</p>
+		</footer>
+		<script src="js/jquery-2.2.3.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+	</html>
