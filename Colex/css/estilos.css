@@ -5,7 +5,7 @@
 }
 .caja { float:left;margin-left:525px; }
 .posisicion {
-
+display: inline-block;
 }
 
 body{
@@ -74,7 +74,10 @@ body{
 	background-color: blue;
 }
 #wrapper{
-	width:750px;margin:0 auto;
+	background-color: #444;
+}
+.color{
+	background-color: #0078FF;
 }
 footer {
     position: relative;
