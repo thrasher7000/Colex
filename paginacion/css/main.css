@@ -1,0 +1,14 @@
+body {
+	background-color: #EEEEEE;
+	color: #808080;
+}
+.principal {
+	margin-top: 3%;
+}
+header h2 {
+	color: #FEC60F;
+	font-family: 'Hammersmith One', sans-serif;
+}
+header h2 span {
+	color: #595262;
+}
