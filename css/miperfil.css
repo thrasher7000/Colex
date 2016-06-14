@@ -1,0 +1,25 @@
+.acomodar{
+
+  margin-left: 1em;
+}
+.izquierda{
+  padding-top: -5em;
+  margin-right: 20em;
+}
+.boton{
+  margin-left: 25em;
+}
+.img{
+  margin-left: 20em;
+  width: 20em;
+  margin-top: -2em;
+}
+.p{
+  margin-left: 35em;
+  margin-bottom: 7em;
+  margin-top: -10em;
+}
+#formulario{
+  margin-left: 20em;
+  max-width: 850px;
+}

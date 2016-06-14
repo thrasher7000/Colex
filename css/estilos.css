@@ -1,0 +1,134 @@
+.navbar{
+	margin-bottom: 0;
+	color: #000;
+	background-color: #fff;
+}
+.caja { float:left;margin-left:525px; }
+.posisicion {
+    display: inline-block;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+.tamaño{
+    margin-top: 35px;
+    width: 527.6px;
+    height: 200px;
+    display: inline-flex;
+}
+.izq{
+    float: left;
+}
+.cent{
+    float: center;
+}
+.der{
+    float: right;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+#center{
+	background-color: #0A72F3;
+	float: center;
+}
+#Rigth{
+	background-color: orange;
+}
+#left{
+	clear: both;
+	background-color: blue;
+}
+#wrapper{
+	background-color: #444;
+}
+#izquierda{
+    background-color: #444;
+    color: #fff;
+    float: left;
+    margin-top: 0px;
+}
+#centro{
+    background-color: #444;
+    color: #fff;
+    float: center;
+    margin-top: 0px;
+}
+#derecha{
+background-color: #444;
+    color: #fff;
+    float: right;
+    margin-top: 00px;
+}
+.color{
+	background-color: #303032;
+	color: #fff;
+	border: 0;
+}
+.color1{
+	color: #fff;
+}
+footer {
+    position: relative;
+    margin-top: 0px;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+
+}
