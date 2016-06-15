@@ -1,149 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Formularios</title>
-	<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen" />
-	<link rel="shortcut icon" href="images/icon/icono4.png">
-	<link rel="stylesheet" type="text/css" href="css/gerente.css">
-	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="../../css/bootstrap-theme.css">
-	<link rel="stylesheet" type="text/css" href="../../css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="css/estilosformularios.css">
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen" />
+    <link rel="shortcut icon" href="images/icon/icono4.png">
+    <link rel="stylesheet" type="text/css" href="css/gerente.css">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="../../css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/estilosformularios.css">
 </head>
 <body>
 
     <div class="container">    
         <div id="loginbox" style="display:none;margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
             <div class="panel panel-info" >
-                    <div class="panel-heading">
-                    </div>     
+                <div class="panel-heading">
+                </div>     
 
-                    <div style="padding-top:30px" class="panel-body" >
+                <div style="padding-top:30px" class="panel-body" >
 
-                        <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
-                            
-                        <form id="loginform" class="form-horizontal" role="form">
-                                    
-                            <div style="margin-bottom: 25px" class="input-group">
-                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                        <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username or email">                                        
-                                    </div>
-                                
-                            <div style="margin-bottom: 25px" class="input-group">
-                                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                                        <input id="login-password" type="password" class="form-control" name="password" placeholder="password">
-                                    </div>
-                                    
+                    <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+                    
+                    <form id="loginform" class="form-horizontal" role="form">
+                        
+                        <div style="margin-bottom: 25px" class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username or email">                                        
+                        </div>
+                        
+                        <div style="margin-bottom: 25px" class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                            <input id="login-password" type="password" class="form-control" name="password" placeholder="password">
+                        </div>
+                        
 
-                                
-                            <div class="input-group">
-                                      <div class="checkbox">
-                                        <label>
-                                          <input id="login-remember" type="checkbox" name="remember" value="1"> Recordarme
-                                        </label>
-                                      </div>
-                                    </div>
-
-
-                                <div style="margin-top:10px" class="form-group">
-                                    <!-- Button -->
-
-                                    <div class="col-sm-12 controls">
-                                      <a id="btn-login" href="#" class="btn btn-success">Registrarse </a>
-                                                         </div>
-                                </div>
+                        
+                        <div class="input-group">
+                          <div class="checkbox">
+                            <label>
+                              <input id="login-remember" type="checkbox" name="remember" value="1"> Recordarme
+                          </label>
+                      </div>
+                  </div>
 
 
-                                <div class="form-group">
-                                    <div class="col-md-12 control">
-                                        <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
-                                            Don't have an account! 
-                                        <a href="#" onClick="$('#loginbox').hide(); $('#signupbox').show()">
-                                            Sign Up Here
-                                        </a>
-                                        </div>
-                                    </div>
-                                </div>    
-                            </form>     
+                  <div style="margin-top:10px" class="form-group">
+                    <!-- Button -->
+
+                    <div class="col-sm-12 controls">
+                      <a id="btn-login" href="#" class="btn btn-success">Registrarse </a>
+                  </div>
+              </div>
+
+
+              <div class="form-group">
+                <div class="col-md-12 control">
+                    <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
+                        Don't have an account! 
+                        <a href="#" onClick="$('#loginbox').hide(); $('#signupbox').show()">
+                            Sign Up Here
+                        </a>
+                    </div>
+                </div>
+            </div>    
+        </form>     
 
 
 
-                        </div>                     
-                    </div>  
-        </div>
-        <div id="signupbox" style="margin-top:50px" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                    <div class="panel panel-info">
-                        <div class="panel-heading">
-                            <div class="panel-title">Registrarse</div>
-                            <div style="float:right; font-size: 85%; position: relative; top:-10px"><a id="signinlink" href="#" onclick="$('#signupbox').hide(); $('#loginbox').show()"></a></div>
-                        </div>  
-                        <div class="panel-body" >
-                            <form id="signupform" class="form-horizontal" role="form">
-                                
-                                <div id="signupalert" style="display:none" class="alert alert-danger">
-                                    <p>Error:</p>
-                                    <span></span>
-                                </div>
-                                    
-                                
-                                  
-                                <div class="form-group">
-                                    <label for="email" class="col-md-3 control-label">Correo</label>
-                                    <div class="col-md-9">
-                                        <input type="text" class="form-control" name="email" placeholder="andres@ejemplo.com">
-                                    </div>
-                                </div>
-                                    
-                                <div class="form-group">
-                                    <label for="firstname" class="col-md-3 control-label">Nombres</label>
-                                    <div class="col-md-9">
-                                        <input type="text" class="form-control" name="firstname" placeholder="Andres Estaban">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="lastname" class="col-md-3 control-label">Apellidos</label>
-                                    <div class="col-md-9">
-                                        <input type="text" class="form-control" name="lastname" placeholder="Gonzales Soler">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="password" class="col-md-3 control-label">Cedúla de ciudadania</label>
-                                    <div class="col-md-9">
-                                        <input type="password" class="form-control" name="passwd" placeholder="">
-                                    </div>
-                                </div>
-                                    
-                                <div class="form-group">
-                                    <label for="icode" class="col-md-3 control-label">Cargo</label>
-                                 
-                                    <div class="col-md-9">
-                                        <select>
-                                        <option value="volvo">Jefe de matenimiento</option>
-                                        <option value="saab">Supervisor de vehículos</option>
-                                        </select>
-                                    </div>
-                                </div>
+    </div>                     
+</div>  
+</div>
+<div id="signupbox" style="margin-top:50px" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <div class="panel-title">Registrarse</div>
+            <div style="float:right; font-size: 85%; position: relative; top:-10px"><a id="signinlink" href="#" onclick="$('#signupbox').hide(); $('#loginbox').show()"></a></div>
+        </div>  
+        <div class="panel-body" >
+            <form id="signupform" class="form-horizontal" role="form">
+                
+                <div id="signupalert" style="display:none" class="alert alert-danger">
+                    <p>Error:</p>
+                    <span></span>
+                </div>
+                
+                
+                
+                <div class="form-group">
+                    <label for="email" class="col-md-3 control-label">Correo</label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" name="email" placeholder="andres@ejemplo.com">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="firstname" class="col-md-3 control-label">Nombres</label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" name="firstname" placeholder="Andres Estaban">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="lastname" class="col-md-3 control-label">Apellidos</label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" name="lastname" placeholder="Gonzales Soler">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="col-md-3 control-label">Cedúla de ciudadania</label>
+                    <div class="col-md-9">
+                        <input type="password" class="form-control" name="passwd" placeholder="">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="icode" class="col-md-3 control-label">Cargo</label>
+                    
+                    <div class="col-md-9">
+                        <select>
+                            <option value="volvo">Jefe de matenimiento</option>
+                            <option value="saab">Supervisor de vehículos</option>
+                        </select>
+                    </div>
+                </div>
 
-                                <div id="Registro" class="form-group ">
-                                    <!-- Button -->                                        
-                                    <div class="col-md-offset-3 col-md-9 acomodar1 ">
-                                        <h2 class=" acomodar1"></h2><div class="btn btn-info"><a href="Gerente.html">Registrarse</a></div>
-                                       
-                                    </div>
-                                    <div class="form-group">
-                                    <!-- Button -->                                        
-                                    <div class="col-md-offset-3 col-md-9 acomodar2 ">
-                                        <h2 class="acomodar2"></h2><div class="btn btn-info"><a href="../../index.html">Inicio</a></div>
-                                                                           </div>
-                                </div> 
-                            </form>
-                         </div>
-                    </div>       
-         </div> 
-    </div>
-	<script src="../../js/jquery-2.2.4.min.js"></script>
-	<script src="../../js/bootstrap.js"></script>
-	<script src="js/hideshow.js"></script>
+                <div id="Registro" class="form-group ">
+                    <!-- Button -->                                        
+                    <div class="col-md-offset-3 col-md-9 acomodar1 ">
+                        <h2 class=" acomodar1"></h2><div class="btn btn-info"><a href="Gerente.html">Registrarse</a></div>
+                        
+                    </div>
+                    <div class="form-group">
+                        <!-- Button -->                                        
+                        <div class="col-md-offset-3 col-md-9 acomodar2 ">
+                            <h2 class="acomodar2"></h2><div class="btn btn-info"><a href="../../index.html">Inicio</a></div>
+                        </div>
+                    </div> 
+                </form>
+            </div>
+        </div>       
+    </div> 
+</div>
+<script src="../../js/jquery-2.2.4.min.js"></script>
+<script src="../../js/bootstrap.js"></script>
+<script src="js/hideshow.js"></script>
 </body>
 </html>

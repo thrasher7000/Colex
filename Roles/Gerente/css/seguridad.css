@@ -1,0 +1,12 @@
+/*
+This is required for scroll bars on modal
+*/
+#myModal .modal-content
+{
+
+  height:400px;
+  overflow:auto;
+}
+#myModal{
+	margin-left: 50em;
+}
