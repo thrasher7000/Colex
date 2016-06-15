@@ -6,8 +6,8 @@ html, div, map, dt, isindex, form, header, aside, section, section, article, foo
 
 html, body {
 height: 100%;
-margin: 0;
-padding: 0;
+margin: auto;
+padding: auto;
 font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
 background: #F8F8F8;
 font-size: 12px;
@@ -193,11 +193,13 @@ margin: 0 5px;
 /* Sidebar */
 
 aside#sidebar {
-width: 23%;
+
+width: 22.9%;
 background: #E0E0E3 url(../images/sidebar.png) repeat;
 float: left;
 min-height: 500px;
 margin-top: -4px;
+
 }
 
 #sidebar hr {
