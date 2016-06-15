@@ -1,0 +1,11 @@
+#header{
+	position: fixed;
+}
+.width_3_quarter {
+    width: 95%;
+    margin-right: 0px;
+    float: left;
+}
+tbody tr td .ordenes {
+	margin-left:15px;
+}
