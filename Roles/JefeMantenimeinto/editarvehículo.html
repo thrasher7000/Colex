@@ -8,7 +8,6 @@
 	<link rel="stylesheet" href="Estilos/estilos.css">
 	<link rel="stylesheet" href="../../css/layout.css">
 	<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen" />
-	<link rel="shortcut icon" href="images/icon/icono4.png">
 	<script src="../../js/bootstrap.min.js"></script>
 	<script src="../../js/jquery-2.2.4.min.js"></script>
 </head>
@@ -88,16 +87,54 @@
 		</footer>
 	</aside>
 	<section class="module width_3_quarter">
-		<div class="span3 well">
-			<legend>Registrar vehículo</legend>
-			<form accept-charset="UTF-8" action="" method="post">
-			<input class="span3" name="Placa" placeholder="Placa" type="text"> 
-				<input class="span3" name="Modelo" placeholder="Modelo" type="text">
-				<input class="span3" name="password" placeholder="Id" type="password"> 
-				<button class="btn btn-warning" type="submit">Registrar vehículo</button>
-			</form>
-		</div>
-		
-	</section>
-</body>
-</html>
+		<div>
+		<form class="form-signin">
+			<div class="container">
+				<div class="row">
+				<div class="col-md-5 col-md-offset-2">
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<h3 class="text-center">
+									Editar info vehículo</h3>
+									<form class="form form-signup" role="form">
+										<div class="form-group">
+											<div class="input-group">
+												<span class="input-group-addon"><span class="glyphicon glyphicon-road"></span>
+											</span>
+											<input type="text" class="form-control" placeholder="Modelo" />
+										</div>
+									</div>
+
+									<div class="form-group">
+										<div class="input-group">
+											<span class="input-group-addon"><span class="glyphicon glyphicon-flash"></span></span>
+											<input type="Text" class="form-control" placeholder="Color" />
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="input-group">
+											<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+											<input type="Text" class="form-control" placeholder="Cilindraje" />
+										</div>
+									</div>
+
+									<div class="form-group">
+										<div class="input-group">
+											<span class="input-group-addon"><span class="glyphicon glyphicon-copyright-mark"></span></span>
+											<input type="Text" class="form-control" placeholder="Descripción" />
+										</div>
+									</div>
+								</div>
+								<a href="#" class="btn btn-sm btn-primary btn-block" role="button">
+									Guardar cambios</a> </form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+
+
+			</div> 
+		</section>
+	</body>
+	</html>
