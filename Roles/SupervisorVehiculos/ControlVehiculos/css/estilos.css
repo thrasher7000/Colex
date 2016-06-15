@@ -1,4 +1,6 @@
-.izquierda {
-	width:85%;
-	float: right;
+.fixed {
+	position: fixed !important;
+}
+.azul {
+	background-color: red;
 }
