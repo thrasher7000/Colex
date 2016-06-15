@@ -12,6 +12,9 @@ author: bootply.com
 body {
  padding-top:0px;
 }
+.navbar-inverse{
+  background-color: #444;
+}
 .mpc {
   margin-right: auto;
   margin-left: auto;
