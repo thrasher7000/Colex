@@ -1,161 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <meta charset="utf-8">
-        <title>Control Vehículos</title>
-        <meta name="generator" content="Bootply" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link href="../../../css/bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/estilos.css">
-        <!--[if lt IE 9]>
-          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <link href="css/styles.css" rel="stylesheet">
-    </head>
-    <body>
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="banner">
-          <div class="container">
-            <div class="navbar-header">
-              <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <span class="navbar-brand">Supervisor Vehículos</span>
-            </div>
-            <nav class="collapse navbar-collapse" role="navigation">
-              <ul class="nav navbar-nav">
-                <li class="icn_new_article">
-                  <a href="#sec">Get Started</a>
-                </li>
-                <li>
-                  <a href="#sec">Edit</a>
-                </li>
-                <li>
-                  <a href="#sec">Visualize</a>
-                </li>
-                <li>
-                  <a href="#sec">Prototype</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </nav>
-
-        <div id="masthead">  
-          <div class="container">
-              
-          </div><!--/container-->
-        </div><!--/masthead-->
-
-        <!--main-->
-        <div class="mpc">
-          <div class="row">
-              <!--left-->
-              <div class="col-md-3" id="leftCol">
-                <ul class="nav nav-stacked" id="sidebar">
-                    <li class="icn_new_article"><a href="nuevousuario.html">&nbsp;&nbsp;Nuevo vehículo</a></li>
-                    <li class="icn_edit_article"><a href="editarvehículo.html">&nbsp;&nbsp;Editar Vehículo</a></li>
-                    <li class="icn_categories"><a href="#">&nbsp;&nbsp;Hoja de vida</a></li>
+<!DOCTYPE html5>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Control de Vehículos</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="../../../css/bootstrap.css"/>
+    <link rel="stylesheet" href="../../../css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="../../../css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <nav role="banner" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="mpc">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+          <p href="../Supervisor.html" class="navbar-titulo hidden-xs">Control de Vehículos</p>
+        </div>
+      </div>
+    </nav>
+    <div class="mpc">
+      <div class="row">
+        <div id="leftCol" class="col-md-3 col-sm-4">
+          <nav role="navigation" class="collapse navbar-collapse">
+            <ul id="sidebar" class="nav nav-stacked">
+              <li><a href=""><i class="fa fa-user"></i>&nbsp;Nuevo vehículo</a></li>
+              <li class="dropdown"><a data-toggle="dropdown" href="#" class="dropdown-toggle"><i class="fa fa-user"></i>&nbsp; Menu 1<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">	Submenu 1-1</a></li>
+                  <li><a href="#">	Submenu 1-2</a></li>
+                  <li><a href="#">	Submenu 1-3</a></li>
                 </ul>
-              </div><!--/left-->
-              
-              <!--right-->
-              <div class="col-md-9">
-                <h2 id="sec0">Content</h2>
-                <p>
-                  At Bootply we like to build simple Bootstrap templates that utilize the code Bootstap CSS without a lot of customization. Sure you can 
-                  find a lot of Bootstrap themes and inspiration, but these templates tend to be heavy on customization.</p>
-                
-                <hr>
-                <p>
-                  Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-                  dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-                  eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-                  sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-                  Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.              
-                  Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-                  dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-                  eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-                  sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-                  Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!</p>
-                
-                <h2 id="sec1">Content</h2>
-                <p>
-                  Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-                  dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut.
-                </p>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="panel panel-default">
-                      <div class="panel-heading"><h3>Hello.</h3></div>
-                      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-                        Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-                        dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-                        Aliquam in felis sit amet augue.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="panel panel-default">
-                      <div class="panel-heading"><h3>Hello.</h3></div>
-                      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-                        Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-                        dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-                        Aliquam in felis sit amet augue.
-                      </div>
-                    </div>
-                  </div>  
-                <h2 id="sec2">Section 2</h2>
-                <p>
-                  Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-                  dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-                  eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-                  sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-                  Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!
-                </p>
-                <div class="row">
-                  <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
-                  <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
-                  <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
-                </div>
-                
-                <hr>
-                
-                <h2 id="sec3">Section 3</h2>
-                <p>
-                  Images are responsive sed @mdo but sum are more fun peratis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-                  dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-                  eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-                  sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-                  Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut..</p>
-                <p>
-                  Fos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-                  sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-                  Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut..</p>
-                
-                
-                <h2 id="sec4">Section 4</h2>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-                  dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-                  eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-                  sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-                  Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.</p>
-                
-                <hr>
-                <h4><a href="http://www.bootply.com/Gygh9swISB">Edit on Bootply</a></h4>
-                <hr>
-
-                </div><!--/right-->
-            </div><!--/row-->
-        </div><!--/container-->
-        <!-- script references -->
-        <script src="../../../js/jquery-2.2.4.min.js"></script>
-        <script src="../../../js/bootstrap.js"></script>
-        <script src="js/scripts.js"></script>
-    </body>
+              </li>
+              <li><a href="#seccion">&nbsp;Editar Vehículo</a></li>
+              <li><a href="#seccion2">&nbsp;Hoja de vida</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-9 col-sm-8"><br/>
+          <p style="background:red;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate mollitia expedita, perspiciatis dolores numquam magni nesciunt eum quos placeat, vel ullam delectus error eveniet eaque. Eum quidem esse ipsa explicabo.</p>
+        </div>
+      </div>
+    </div>
+    <script src="../../../js/jquery-2.2.4.min.js"></script>
+    <script src="../../../js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
