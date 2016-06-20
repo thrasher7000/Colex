@@ -3,7 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta charset="utf-8">
-	<link rel="shortcut icon" type="image/x-icon" href="imagenes/mpc.png">
+	<link rel="shortcut icon" type="images/x-icon" href="images/mpc.png">
 	<title>MPC</title>
 	<!-- Link CSS -->
 	<link rel="stylesheet" href="css/bootstrap-theme.css">
@@ -11,7 +11,43 @@
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/main.css">
 	<!-- Fuente google -->
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>+
+	<style>
+		body {
+			padding-top: 30px;
+			background-color: #EEEEEE;
+
+		}
+		.logo-colex span {
+			color: #FEC60F;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.logo-colex span span {
+			color: #595262;
+		}
+		.imagen-centro {
+		    margin: 0 auto;
+		}
+		.padding-1 {
+			height: 30px;
+		}	
+		.azul {
+			color: #52909D;
+		}
+		.map-responsive{
+		    overflow:hidden;
+		    padding-bottom:56.25%;
+		    position:relative;
+		    height:0;
+		}
+		.map-responsive iframe{
+		    left:0;
+		    top:0;
+		    height:100%;
+		    width:100%;
+		    position:absolute;
+		}
+	</style>
 </head>
 <body>
 	<div class="container">
@@ -20,7 +56,7 @@
 				<div class="row">
 					<div class="col-md-12 col-sm-3 col-xs-2"></div>
 					<div class="col-md-12 col-sm-6 col-xs-8">
-						<img src="imagenes/mpc-logo.png" class="img-responsive">
+						<img src="images/mpc-logo.png" class="img-responsive">
 						<div class="col-md-12 hidden-xs" style="padding-bottom:30px;"></div>
 						<form action="">
 							<div class="form-group">
@@ -31,9 +67,7 @@
 								<label for="password" class="sr-only">Contraseña:</label>
 								<input type="password" class="form-control" placeholder="Contraseña" id="password">
 							</div>
-							<a href="../Colex/Roles/Gerente/Gerente.html" class="col-xs-8 col-xs-offset-2 btn btn-primary">Gerente de area</a>
-							<a href="Administrador/Administrador.html" class="col-xs-8 col-xs-offset-2 btn btn-primary">Jefe de mantenimiento</a>
-							<a href="Administrador/Administrador.html" class="col-xs-8 col-xs-offset-2 btn btn-primary">Supervisor de vehículos</a>
+							<a href="Roles/Gerente/Gerente.html" class="col-xs-8 col-xs-offset-2 btn btn-primary">Ingresar</a>
 						</form>
 					</div>
 					<div class="col-md-12 col-sm-3 col-xs-2"></div>
@@ -58,8 +92,8 @@
 								<li><a href="#qsomos" role="tab" data-toggle="tab"><i class="fa fa-users"></i> Quiénes Somos</a></li>
 								<li><a href="#oficinas" role="tab" data-toggle="tab"><i class="fa fa-truck"></i> Nuestras Oficinas</a></li>
 								<li><a href="#contactenos" role="tab" data-toggle="tab"><i class="fa fa-envelope"></i> Contactenos</a></li>
-								<li><a href="paginas/404/404.html"><i class="fa fa-exclamation-triangle"></i> Error</a></li>
-								<li><a href="paginas/500/500.html"><i class="fa fa-exclamation-triangle"></i> Error 500</a></li>
+								<li><a href="Roles/Errores/404/404.html"><i class="fa fa-exclamation-triangle"></i> Error</a></li>
+								<li><a href="Roles/Errores/500/500.html"><i class="fa fa-exclamation-triangle"></i> Error 500</a></li>
 							</ul>
 						</div>
 					</div>
@@ -70,15 +104,15 @@
 					<!-- Servicios -->
 					<div class="tab-pane active" id="servicios">
 						<center><h2 class="azul">Servicios</h2>
-							<p>Ofrecemos una amplia variedad de servicios, los cuales además ajustamos de acuerdo a las necesidades de su empresa. Así mismo, cubrimos el 90% del territorio nacional a través de 7 agencias principales, 35 agentes y más de 400 destinos en todo Colombia.</p>
-							<img src="imagenes/servicios.jpg" class="img-responsive" alt="">
+							<p>Ofrecemos una amplia variedad de servicios, además ajustamos de acuerdo a las necesidades de su empresa. Así mismo, cubrimos el 90% del territorio nacional a través de 7 agencias principales, 35 agentes y más de 400 destinos en todo Colombia.</p>
+							<img src="images/servicios.jpg" class="img-responsive" alt="">
 						</center>
 					</div>
 					<!-- Quienes Somos -->
 					<div class="tab-pane" id="qsomos">
 						<center><h2 class="azul">Quiénes Somos</h2>
 							<p>Una empresa de soluciones integrales en envíos y mensajería:</p>
-							<img src="imagenes/1459c4_75fdac9c577743bdaa452c4ca2e366ef.png" class="img-responsive" alt=""></center>
+							<img src="images/1459c4_75fdac9c577743bdaa452c4ca2e366ef.png" class="img-responsive" alt=""></center>
 					</div>
 					<!-- Nuestras Oficinas -->
 					<div class="tab-pane" id="oficinas">

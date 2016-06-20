@@ -193,10 +193,11 @@ margin: 0 5px;
 
 aside#sidebar {
 
+position: relative;
 width: 22.9%;
-background: #E0E0E3 url(../images/sidebar.png) repeat;
+background: #E0E0E3 url(../images/sidebar.png) repeat-y;
 float: left;
-min-height: 500px;
+min-height: 100%;
 margin-top: -4px;
 
 }
